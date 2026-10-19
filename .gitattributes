@@ -1,6 +1,9 @@
-# Tell GitHub to ignore bundled Unity/third-party package languages
 Assets/TextMesh\ Pro/** linguist-vendored
 Assets/Plugins/** linguist-vendored
 
-# Optional: If you use the Universal Render Pipeline (URP) or custom packages that clutter your languages
 Packages/** linguist-vendored
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.glsl linguist-detectable=false
+*.compute linguist-detectable=false
